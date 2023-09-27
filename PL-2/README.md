@@ -178,8 +178,6 @@ Create a Java class called `Relatives` with two members:
 
 Include different methods for inputting data from the keyboard and displaying names and addresses of different relative instances.
 
-Here's a Markdown file with the Java programs for the tasks you've described:
-
 ```java
 import java.util.Scanner;
 
