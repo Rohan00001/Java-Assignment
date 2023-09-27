@@ -1,7 +1,7 @@
 # Java Programming Examples
 
-## Task 1: Display "Hello World"
-
+## Task 1: Write a class to display “Hello World”
+### Display "Hello World"
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
@@ -10,7 +10,8 @@ public class HelloWorld {
 }
 ```
 
-## Task 2: Print N Fibonacci Numbers
+## Task 2: Write a class to print N Fibonacci numbers. Assume any value for N.
+### Print N Fibonacci Numbers
 
 ```java
 public class Fibonacci {
@@ -29,7 +30,8 @@ public class Fibonacci {
 }
 ```
 
-## Task 3: Find the G.C.D of Two Numbers
+## Task 3: Write a class to find the G.C.D to two numbers
+### Find the G.C.D of Two Numbers
 
 ```java
 import java.util.Scanner;
@@ -58,7 +60,8 @@ public class GCDCalculator {
 }
 ```
 
-## Task 4: Print the First 10 Prime Numbers
+## Task 4: Write a class to print the first 10 prime numbers.
+### Print the First 10 Prime Numbers
 
 ```java
 public class FirstTenPrimes {
@@ -88,7 +91,8 @@ public class FirstTenPrimes {
 }
 ```
 
-## Task 5: Reverse an Array of Characters (Size 20)
+## Task 5: Write a class to reverse an array of characters of size 20.
+### Reverse an Array of Characters (Size 20)
 
 ```java
 public class ReverseCharArray {
@@ -133,7 +137,8 @@ public class ReverseCharArray {
 
 ```
 
-## Task 6: Sort an Array of Integers (Size 15)
+## Task 6: Write a class to sort an array of integers of size 15
+### Sort an Array of Integers (Size 15)
 
 ```java
 public class IntegerArraySorter {
