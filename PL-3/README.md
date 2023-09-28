@@ -113,53 +113,7 @@ class Circle {
 
 ```
 
-### Task 3: Employee Class
-
-**Question:**
-Write a Java program that defines an `Employee` class with member variables such as employee number, name, basic pay, house rent allowance (HRA), and dearness allowance (DA). Implement methods for calculating and displaying the gross salary of an employee. Provide both a default and parameterized constructor. In the `main` method, create an `Employee` object with sample data and calculate and display the gross salary.
-
-```java
-class Employee {
-    private int empNo;
-    private String name;
-    private double basicPay;
-    private double hra;
-    private double da;
-
-    // Default constructor
-    public Employee() {
-        this.empNo = 0;
-        this.name = "";
-        this.basicPay = 0.0;
-        this.hra = 0.0;
-        this.da = 0.0;
-    }
-
-    // Parameterized constructor
-    public Employee(int empNo, String name, double basicPay, double hra, double da) {
-        this.empNo = empNo;
-        this.name = name;
-        this.basicPay = basicPay;
-        this.hra = hra;
-        this.da = da;
-    }
-
-    // Calculate and display gross salary
-    public void calc() {
-        double grossSalary = basicPay + hra + da;
-        System.out.println("Employee Name: " + name);
-        System.out.println("Gross Salary: " + grossSalary);
-    }
-
-    public static void main(String[] args) {
-        Employee emp = new Employee(101, "John", 50000.0, 10000.0, 8000.0);
-        emp.calc();
-    }
-}
-
-```
-
-### Task 4: OverloadDemo Class
+### Task 3: OverloadDemo Class
 
 **Question:**
 Create a Java class named `OverloadDemo` with two overloaded methods named `multiplication`. One method should multiply two integer numbers, and the other should multiply two float numbers. In the `main` method, demonstrate the use of these overloaded methods to show the polymorphism property of Java.
