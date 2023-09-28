@@ -1,7 +1,3 @@
-Certainly, here are two separate Java files for each of the two questions:
-
-**GeometricObject.java**
-```java
 // Abstract class GeometricObj
 abstract class GeometricObj {
     String color;
@@ -66,5 +62,3 @@ public class GeometricObjectDemo {
         System.out.println("Circumference of Triangle: " + triangle.findCircumference());
     }
 }
-```
-
