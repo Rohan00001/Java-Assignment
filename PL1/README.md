@@ -11,8 +11,8 @@ public class HelloWorld {
 ```
 ## Output
 ```
-@Rohan00001 ➜ /workspaces/Java-Assignment/PL1 (main) $ javac Fibonacci.java
-@Rohan00001 ➜ /workspaces/Java-Assignment/PL1 (main) $ java Fibonacci
+$ javac Fibonacci.java
+$ java Fibonacci
 Fibonacci Series of 10 numbers:
 0 1 1 2 3 5 8 13 21 34 
 ```
@@ -35,6 +35,13 @@ public class Fibonacci {
         }
     }
 }
+```
+## Output
+```
+$ javac FirstTenPrimes.java
+$ java FirstTenPrimes
+First 10 prime numbers:
+2 3 5 7 11 13 17 19 23 29
 ```
 
 ## Task 3: Write a class to find the G.C.D to two numbers
@@ -66,6 +73,15 @@ public class GCDCalculator {
     }
 }
 ```
+## Output
+```
+$ javac GCDCalculator.java
+$ java GCDCalculator
+Enter the first number: 45
+Enter the second number: 15
+GCD of 45 and 15 is: 15
+@Rohan00001 ➜ /workspaces/J
+```
 
 ## Task 4: Write a class to print the first 10 prime numbers.
 ### Print the First 10 Prime Numbers
@@ -96,6 +112,14 @@ public class FirstTenPrimes {
         }
     }
 }
+```
+
+## Output
+```
+$ javac FirstTenPrimes.java
+$ java FirstTenPrimes
+First 10 prime numbers:
+2 3 5 7 11 13 17 19 23 29
 ```
 
 ## Task 5: Write a class to reverse an array of characters of size 20.
@@ -142,6 +166,16 @@ public class ReverseCharArray {
     }
 }
 
+```
+## Output
+```
+$ javac ReverseCharArray.java
+$ java ReverseCharArray
+Original Array:
+A B C D E F G H I J K L M N O P Q R S T 
+
+Reversed Array:
+T S R Q P O N M L K J I H G F E D C B A 
 ```
 
 ## Task 6: Write a class to sort an array of integers of size 15
@@ -202,4 +236,13 @@ public class IntegerArraySorter {
 }
 
 ```
+## Output
+```
+$ javac IntegerArraySorter.java
+$ java IntegerArraySorter
+Original Array:
+3 8 44 70 46 13 89 0 84 53 47 35 18 89 91 
 
+Sorted Array:
+0 3 8 13 18 35 44 46 47 53 70 84 89 89 91 
+```
