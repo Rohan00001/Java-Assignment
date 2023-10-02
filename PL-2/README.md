@@ -56,14 +56,17 @@ public class Student {
 ```
 ## Output
 ```
-$ javac BankAccount.java
-$ java BankAccount
-Account Holder Name: John Doe
-Account Number: 1234567890
-Account Type: S
-Balance: Rs. 5000.0
-Deposited: Rs. 2000.0
-Withdrawn: Rs. 1500.0
+$ javac Student.java
+$ java Student
+Student Name: John
+Marks:
+Subject 1: 90.0
+Subject 2: 85.0
+Subject 3: 78.0
+Subject 4: 92.0
+Subject 5: 88.0
+Total Marks: 433.0
+Average Marks: 86.6
 ```
 
 ## Task 2: BankAccount Class
