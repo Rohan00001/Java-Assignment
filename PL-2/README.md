@@ -199,9 +199,9 @@ public class Clock {
 ```
 $ javac Clock.java
 $ java Clock
+Time: 12 hours 15 minutes
 Time: 10 hours 30 minutes
-Time: 12 hours 45 minutes
-Time Difference: 2 hours 15 minutes
+Time Difference: 1 hours 45 minutes
 ```
 
 ## Task 4: Relatives Class
