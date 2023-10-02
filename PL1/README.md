@@ -11,10 +11,9 @@ public class HelloWorld {
 ```
 ## Output
 ```
-$ javac Fibonacci.java
-$ java Fibonacci
-Fibonacci Series of 10 numbers:
-0 1 1 2 3 5 8 13 21 34 
+$ javac HelloWorld.java
+$ java HelloWorld
+Hello, World!
 ```
 
 ## Task 2: Write a class to print N Fibonacci numbers. Assume any value for N.
