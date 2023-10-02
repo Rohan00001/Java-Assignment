@@ -37,10 +37,10 @@ public class Fibonacci {
 ```
 ## Output
 ```
-$ javac FirstTenPrimes.java
-$ java FirstTenPrimes
-First 10 prime numbers:
-2 3 5 7 11 13 17 19 23 29
+$ javac Fibonacci.java
+$ java Fibonacci
+Fibonacci Series of 10 numbers:
+0 1 1 2 3 5 8 13 21 34
 ```
 
 ## Task 3: Write a class to find the G.C.D to two numbers
