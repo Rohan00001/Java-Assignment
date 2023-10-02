@@ -74,6 +74,19 @@ public class ComplexNumber {
 }
 
 ```
+## Output
+```
+$ javac ComplexNumber.java
+$ java ComplexNumber
+Sum:
+3.0 + 5.0i
+Difference:
+1.0 + 1.0i
+Product:
+-4.0 + 7.0i
+Quotient:
+1.6 + -0.2i
+```
 
 ### Task 2: Circle Class
 
@@ -112,6 +125,13 @@ class Circle {
 }
 
 ```
+## Output
+```
+$ javac Circle.java
+$ java Circle
+Circle Circumference: 125.66370614359172
+Arc Length for 90 degrees: 31.41592653589793
+```
 
 ### Task 3: OverloadDemo Class
 
@@ -141,4 +161,11 @@ class OverloadDemo {
     }
 }
 
+```
+## Output
+```
+$ javac OverloadDemo.java
+$ java OverloadDemo
+Multiplication of two integers: 15
+Multiplication of two floats: 3.75
 ```
