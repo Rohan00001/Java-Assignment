@@ -54,6 +54,17 @@ public class Student {
 }
 
 ```
+## Output
+```
+$ javac BankAccount.java
+$ java BankAccount
+Account Holder Name: John Doe
+Account Number: 1234567890
+Account Type: S
+Balance: Rs. 5000.0
+Deposited: Rs. 2000.0
+Withdrawn: Rs. 1500.0
+```
 
 ## Task 2: BankAccount Class
 
@@ -122,6 +133,18 @@ public class BankAccount {
 
 
 ```
+
+## Output
+```
+$ javac BankAccount.java
+$ java BankAccount
+Account Holder Name: John Doe
+Account Number: 1234567890
+Account Type: S
+Balance: Rs. 5000.0
+Deposited: Rs. 2000.0
+Withdrawn: Rs. 1500.0
+```
 ## Task 3: Clock Class
 
 Create a Java class called `Clock` with the following variables:
@@ -168,6 +191,14 @@ public class Clock {
         System.out.println("Time Difference: " + differenceHours + " hours " + differenceMinutes + " minutes");
     }
 }
+```
+## Output
+```
+$ javac Clock.java
+$ java Clock
+Time: 10 hours 30 minutes
+Time: 12 hours 45 minutes
+Time Difference: 2 hours 15 minutes
 ```
 
 ## Task 4: Relatives Class
@@ -224,4 +255,23 @@ public class Relatives {
     }
 }
 ```
+## Output
+```
+$ javac Relatives.java
+$ java Relatives
+Enter name of relative 1: Uncle
+Enter address of relative 1: Asansol
+Enter name of relative 2: Aunty
+Enter address of relative 2: Durgapur
+Enter name of relative 3: Brother
+Enter address of relative 3: Kolkata
+Relatives:
+Name: Uncle
+Address: Asansol
 
+Name: Aunty
+Address: Durgapur
+
+Name: Brother
+Address: Kolkata
+```
