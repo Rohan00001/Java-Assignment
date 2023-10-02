@@ -78,7 +78,18 @@ public class VehicleDemo {
 }
 
 ```
-
+## Output
+```
+$ javac VehicleDemo.java
+$ java VehicleDemo
+Wheels: 4
+Speed: 120
+Passengers: 5
+Wheels: 6
+Speed: 80.5
+Load Limit: 5000.0
+Car is faster than Truck.
+```
 ## Task 2: Building Hierarchy
 
 **Question:**
@@ -157,6 +168,15 @@ public class BuildingDemo {
 
 ```
 
+## Output
+```
+$ javac BuildingDemo.java
+$ java BuildingDemo
+Area of the building: 2000.0 sq. ft.
+Area of the building: 1500.0 sq. ft.
+Smallest area building: Office
+```
+
 ## Task 3: 2D Figure Hierarchy
 
 **Question:**
@@ -211,4 +231,11 @@ public class TwoDFigureDemo {
     }
 }
 
+```
+## Output
+```
+$ javac TwoDFigureDemo.java
+$ java TwoDFigureDemo
+Area of Rectangle: 40.0
+Area of Triangle: 12.0
 ```
