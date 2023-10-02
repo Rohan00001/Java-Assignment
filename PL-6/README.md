@@ -1,4 +1,4 @@
-# JAVA Programming PL-3
+# JAVA Programming PL-6
 
 ## 1. Count Vowels in a String
 **Question:** WAP in java to accept a string and count the number of vowels present in the string.
