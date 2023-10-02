@@ -24,6 +24,13 @@ public class CountVowels {
     }
 }
 ```
+## Output
+```
+$ javac CountVowels.java
+$ java CountVowels
+Enter a string: Rohan Gope
+Number of vowels in the string: 4
+```
 
 ## 2. Check Palindrome Word
 **Question:** WAP in java to accept a word and check whether the word is palindrome or not.
@@ -45,7 +52,13 @@ public class PalindromeCheck {
     }
 }
 ```
-
+## Output
+```
+$ javac PalindromeCheck.java
+$ java PalindromeCheck
+Enter a word: madam
+The word is a palindrome.
+```
 ## 3. Count Blank Spaces, Words, and Characters:
 **Question:**
 WAP in java to accept a string and find :
@@ -83,7 +96,15 @@ public class StringAnalysis {
     }
 }
 ```
-
+## Output
+```
+$ javac StringAnalysis.java
+$ java StringAnalysis
+Enter a string: Hello This is Rohan Gope
+Number of blank spaces: 4
+Number of words: 5
+Number of characters: 24
+```
 ## 4. Convert String to Uppercase
 **Question:** WAP in java to accept a string and display the new string as all the character of the string converted to upper case.
 ```java
@@ -100,7 +121,13 @@ public class UppercaseConversion {
     }
 }
 ```
-
+## Output
+```
+$ javac UppercaseConversion.java
+$ java UppercaseConversion
+Enter a string: rohan
+Uppercase string: ROHAN
+```
 ## 5. Find Maximum and Minimum in an Array
 **Question:** WAP in java to assign 10 different numbers in a single dimensional Array and display the maximum & 
 minimum number of the elements
@@ -125,6 +152,13 @@ public class MaxMinArray {
         System.out.println("Minimum number: " + min);
     }
 }
+```
+## Output
+```
+$ javac MaxMinArray.java
+$ java MaxMinArray
+Maximum number: 25
+Minimum number: 3
 ```
 
 ## 6. Bubble Sort for Array
@@ -157,6 +191,15 @@ public class BubbleSort {
         }
     }
 }
+```
+## Ouput
+```
+$ javac BubbleSort.java
+$ java BubbleSort
+Unsorted Array:
+10 5 8 15 3 20 25 12 18 7 
+Sorted Array:
+3 5 7 8 10 12 15 18 20 25
 ```
 
 ## 7. Find Highest and Lowest in a Matrix
@@ -191,6 +234,14 @@ public class MatrixMinMax {
     }
 }
 ```
+## Output
+```
+$ javac MatrixMinMax.java
+$ java MatrixMinMax
+Highest number: 25
+Lowest number: 3
+```
+
 ## 8. Find the Transpose of a Matrix
 **Question:** WAP in java to store the number in 4 by 4 matrix in double dimensional array. Find the transpose 
 of the matrix.
@@ -224,5 +275,14 @@ public class MatrixTranspose {
     }
 }
 
+```
+## Output
+```
+$ javac MatrixTranspose.java
+$ java MatrixTranspose
+1 5 9 13 
+2 6 10 14 
+3 7 11 15 
+4 8 12 16 
 ```
 
