@@ -78,7 +78,7 @@ class Triangle extends GeometricObject {
     }
 }
 
-public class Main {
+public class GeometricObjectDemo {
     public static void main(String[] args) {
         // Create a Triangle object
         Triangle triangle = new Triangle("red", 2.5, 3.0, 4.0, 5.0);
@@ -96,6 +96,8 @@ public class Main {
 ```
 ### Output
 ```
+$ javac GeometricObjectDemo.java
+$ java GeometricObjectDemo
 Color: red
 Weight: 2.5
 Area: 6.0
